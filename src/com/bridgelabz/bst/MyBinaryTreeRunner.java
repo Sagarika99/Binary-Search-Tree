@@ -18,7 +18,7 @@ public class MyBinaryTreeRunner {
 		binarytree.add(63);
 		binarytree.add(67);
 		
-		System.out.println(binarytree);
+		System.out.println(binarytree.search(69));
 		int size = binarytree.getSize();
 		System.out.println(size);
 	}
